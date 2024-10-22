@@ -1,0 +1,35 @@
+# Core Python Libraries for AI-powered Smart Lock Project
+
+# Facial Recognition
+opencv-python==4.5.3.56
+dlib==19.22.0
+face_recognition==1.3.0
+
+# Speech Recognition and Text-to-Speech
+SpeechRecognition==3.8.1
+pyaudio==0.2.11
+gTTS==2.2.3
+pyttsx3==2.90
+
+# Flask for Web Dashboard and APIs
+Flask==2.1.0
+Flask-RESTful==0.3.9
+SQLAlchemy==1.4.32
+Flask-Login==0.5.0
+Flask-WTF==1.0.0
+Jinja2==3.1.2
+
+# For API Communication and Smart Lock Control
+requests==2.26.0
+Flask-RESTful==0.3.9
+PyJWT==2.1.0
+
+# Optional for Advanced AI Models
+tensorflow==2.6.0  # Only install if you plan to use TensorFlow
+torch==1.9.0  # Only install if you plan to use PyTorch
+
+# For Background Task Processing
+celery==5.2.3
+
+# For IoT Communication
+paho-mqtt==1.5.1
